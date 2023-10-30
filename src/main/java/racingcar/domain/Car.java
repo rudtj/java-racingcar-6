@@ -23,7 +23,7 @@ public class Car {
         return this.position == differentCar.position;
     }
 
-    public int comparePosition(Car differentCar) {
+    public int compareTo(Car differentCar) {
         return Integer.compare(this.position, differentCar.position);
     }
 
